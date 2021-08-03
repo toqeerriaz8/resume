@@ -125,6 +125,7 @@ button:hover
 /*global styling end*/
 #text{
     min-height: 144px;
+font: normal bold 50px/ 72px var(--roboto);
 }
 html{
     -webkit-transition: all 0.3s ease;
