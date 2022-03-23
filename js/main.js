@@ -1,10 +1,10 @@
-$(document).ready(function () {
+$(document).ready(function() {
 
 
     let $btns = $('.project-area .button-group button');
 
 
-    $btns.click(function (e) {
+    $btns.click(function(e) {
 
         $('.project-area .button-group button').removeClass('active');
         e.target.classList.add('active');
@@ -47,7 +47,7 @@ $(document).ready(function () {
 
     function navbarFixed() {
         if ($('.header_area').length) {
-            $(window).scroll(function () {
+            $(window).scroll(function() {
                 let scroll = $(window).scrollTop();
                 if (scroll >= nav_offset_top) {
                     $('.header_area .main-menu').addClass('navbar_fixed');
