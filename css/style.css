@@ -9,6 +9,9 @@
 /* import global styling */
 
 @import url(./partials/_global.css);
+
+/* @import url(fonts.css); */
+
 #text {
     min-height: 144px;
 }
